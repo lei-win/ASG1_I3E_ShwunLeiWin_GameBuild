@@ -9,6 +9,7 @@ public class CustomerHazard : MonoBehaviour
     private Vector3 startPosition;
     private Vector3 targetPosition;
     private AudioSource customerAudio;
+    private bool movingToTarget = true;
 
     void Start()
     {
@@ -20,7 +21,25 @@ public class CustomerHazard : MonoBehaviour
     void Update()
     {
         float t = Mathf.PingPong(Time.time * speed, 1f);
-        transform.position = Vector3.Lerp(startPosition, targetPosition, t);
+        
+        if (movingToTarget && t >= 0.99f)
+        {
+            movingToTarget = false;
+        }
+        else if (!movingToTarget && t <= 0.01f)
+        {
+            movingToTarget = true;
+        }
+
+        Vector3 nextPosition = Vector3.Lerp(startPosition, targetPosition, t);
+        
+        Vector3 moveDirection = nextPosition - transform.position;
+        if (moveDirection != Vector3.zero)
+        {
+            transform.forward = moveDirection.normalized;
+        }
+
+        transform.position = nextPosition;
     }
 
     private void OnTriggerEnter(Collider other)
