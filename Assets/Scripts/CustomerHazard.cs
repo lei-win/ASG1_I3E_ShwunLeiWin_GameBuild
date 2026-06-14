@@ -2,15 +2,40 @@ using UnityEngine;
 
 public class CustomerHazard : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Vector3 targetOffset;
+    public float speed = 2f;
+    public int patienceDamage = 1;
+
+    private Vector3 startPosition;
+    private Vector3 targetPosition;
+
     void Start()
     {
-        
+        startPosition = transform.position;
+        targetPosition = startPosition + targetOffset;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        float t = Mathf.PingPong(Time.time * speed, 1f);
+        transform.position = Vector3.Lerp(startPosition, targetPosition, t);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            AudioSource audio = GetComponent<AudioSource>();
+            if (audio != null)
+            {
+                audio.Play();
+            }
+
+            GameManager manager = FindObjectOfType<GameManager>();
+            if (manager != null)
+            {
+                manager.LosePatience(patienceDamage);
+            }
+        }
     }
 }
