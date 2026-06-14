@@ -8,11 +8,13 @@ public class CustomerHazard : MonoBehaviour
 
     private Vector3 startPosition;
     private Vector3 targetPosition;
+    private AudioSource customerAudio;
 
     void Start()
     {
         startPosition = transform.position;
         targetPosition = startPosition + targetOffset;
+        customerAudio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -25,10 +27,9 @@ public class CustomerHazard : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            AudioSource audio = GetComponent<AudioSource>();
-            if (audio != null)
+            if (customerAudio != null)
             {
-                audio.Play();
+                customerAudio.Play();
             }
 
             GameManager manager = FindObjectOfType<GameManager>();
