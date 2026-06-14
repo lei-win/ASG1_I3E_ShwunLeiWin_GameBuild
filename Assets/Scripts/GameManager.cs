@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public int itemsCollected = 0;
     public int targetItems = 13;
 
-    // Check if the player has visited the register after collecting 15 items
+    // Check if the player has visited the register after collecting 13 items
     private bool canWin = false;
 
     void Start()
@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     public void CollectItem()
     {
         itemsCollected++;
-        Debug.Log("Items Collected: " + itemsCollected + "/" + targetItems);
+        Debug.Log("Items Collected: " + itemsCollected + "/13");
 
         if (itemsCollected >= targetItems)
         {
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("You haven't collected 15 items yet! Keep cleaning!");
+            Debug.Log("You haven't collected 13 items yet! Keep cleaning!");
         }
     }
 
