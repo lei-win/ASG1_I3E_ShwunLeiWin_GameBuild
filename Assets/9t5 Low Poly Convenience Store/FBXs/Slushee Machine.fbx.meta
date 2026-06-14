@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 6730b7b560d1b8246bcaecbb13fba982
+timeCreated: 1573185916
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cannister 1
+    100002: Cannister 1 Lid
+    100004: Cannister 1 Lid.001
+    100006: Cannister 1 Lid.002
+    100008: Cannister 1.001
+    100010: Cannister 1.002
+    100012: Lever
+    100014: Lever.001
+    100016: Lever.002
+    100018: Nozzle 1
+    100020: Nozzle 2
+    100022: Nozzle 3
+    100024: Slush 1
+    100026: Slush 2
+    100028: Slush 3
+    100030: //RootNode
+    100032: Slushee Machine
+    400000: Cannister 1
+    400002: Cannister 1 Lid
+    400004: Cannister 1 Lid.001
+    400006: Cannister 1 Lid.002
+    400008: Cannister 1.001
+    400010: Cannister 1.002
+    400012: Lever
+    400014: Lever.001
+    400016: Lever.002
+    400018: Nozzle 1
+    400020: Nozzle 2
+    400022: Nozzle 3
+    400024: Slush 1
+    400026: Slush 2
+    400028: Slush 3
+    400030: Slushee Machine
+    400032: //RootNode
+    2300000: Cannister 1
+    2300002: Cannister 1 Lid
+    2300004: Cannister 1 Lid.001
+    2300006: Cannister 1 Lid.002
+    2300008: Cannister 1.001
+    2300010: Cannister 1.002
+    2300012: Lever
+    2300014: Lever.001
+    2300016: Lever.002
+    2300018: Nozzle 1
+    2300020: Nozzle 2
+    2300022: Nozzle 3
+    2300024: Slush 1
+    2300026: Slush 2
+    2300028: Slush 3
+    2300030: Slushee Machine
+    3300000: Cannister 1
+    3300002: Cannister 1 Lid
+    3300004: Cannister 1 Lid.001
+    3300006: Cannister 1 Lid.002
+    3300008: Cannister 1.001
+    3300010: Cannister 1.002
+    3300012: Lever
+    3300014: Lever.001
+    3300016: Lever.002
+    3300018: Nozzle 1
+    3300020: Nozzle 2
+    3300022: Nozzle 3
+    3300024: Slush 1
+    3300026: Slush 2
+    3300028: Slush 3
+    3300030: Slushee Machine
+    4300000: Slushee Machine
+    4300002: Cannister 1.002
+    4300004: Nozzle 3
+    4300006: Lever.002
+    4300008: Cannister 1 Lid.002
+    4300010: Cannister 1.001
+    4300012: Nozzle 2
+    4300014: Lever.001
+    4300016: Cannister 1 Lid.001
+    4300018: Cannister 1
+    4300020: Nozzle 1
+    4300022: Lever
+    4300024: Cannister 1 Lid
+    4300026: Slush 3
+    4300028: Slush 2
+    4300030: Slush 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157383
+  packageName: 9t5 Low Poly Convenience Store
+  packageVersion: 1.0
+  assetPath: Assets/9t5 Low Poly Convenience Store/FBXs/Slushee Machine.fbx
+  uploadId: 338050

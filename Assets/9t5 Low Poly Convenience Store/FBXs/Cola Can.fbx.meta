@@ -1,0 +1,111 @@
+fileFormatVersion: 2
+guid: a466619b3a4222e4daafe58797eafd49
+timeCreated: 1573110304
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cola Can 1
+    100004: Cola Can 2
+    100006: Cola Can 3
+    100008: Cola Can 4
+    100010: Cola Can 5
+    400000: //RootNode
+    400002: Cola Can 1
+    400004: Cola Can 2
+    400006: Cola Can 3
+    400008: Cola Can 4
+    400010: Cola Can 5
+    2300000: Cola Can 1
+    2300002: Cola Can 2
+    2300004: Cola Can 3
+    2300006: Cola Can 4
+    2300008: Cola Can 5
+    3300000: Cola Can 1
+    3300002: Cola Can 2
+    3300004: Cola Can 3
+    3300006: Cola Can 4
+    3300008: Cola Can 5
+    4300000: Cola Can 5
+    4300002: Cola Can 4
+    4300004: Cola Can 3
+    4300006: Cola Can 2
+    4300008: Cola Can 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157383
+  packageName: 9t5 Low Poly Convenience Store
+  packageVersion: 1.0
+  assetPath: Assets/9t5 Low Poly Convenience Store/FBXs/Cola Can.fbx
+  uploadId: 338050

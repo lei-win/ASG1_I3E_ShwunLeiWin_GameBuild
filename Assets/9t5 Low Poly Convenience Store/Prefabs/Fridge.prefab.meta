@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: be17255a4d88cab428f3cffe975a6cc8
+timeCreated: 1572938682
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157383
+  packageName: 9t5 Low Poly Convenience Store
+  packageVersion: 1.0
+  assetPath: Assets/9t5 Low Poly Convenience Store/Prefabs/Fridge.prefab
+  uploadId: 338050
