@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         if (canWin)
         {
             Debug.Log("YOU WIN! Shift complete, clocking out!");
-            // Later we can hook this up to a win screen popup!
+            
         }
         else
         {
@@ -58,7 +58,6 @@ public class GameManager : MonoBehaviour
     void GameOver()
     {
         Debug.Log("GAME OVER! You lost your patience and lost your job!");
-        // Later we can hook this up to a game over popup!
         Time.timeScale = 0f; // Freezes the game logic
     }
 }
