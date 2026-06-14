@@ -6,6 +6,12 @@ public class CollectibleItem : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AudioSource playerAudio = other.GetComponent<AudioSource>();
+            if (playerAudio != null)
+            {
+                playerAudio.Play();
+            }
+
             GameManager manager = FindObjectOfType<GameManager>();
             if (manager != null)
             {
