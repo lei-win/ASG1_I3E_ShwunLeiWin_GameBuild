@@ -6,14 +6,14 @@ public class GameManager : MonoBehaviour
     // Keeping track of stats
     public int currentPatience = 5;
     public int itemsCollected = 0;
-    public int targetItems = 15;
+    public int targetItems = 13;
 
     // Check if the player has visited the register after collecting 15 items
     private bool canWin = false;
 
     void Start()
     {
-        Debug.Log("Shift Started! Collect 15 items and avoid customers.");
+        Debug.Log("Shift Started! Collect 13 items and avoid customers.");
     }
 
     // Called by items when the player picks them up
